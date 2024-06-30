@@ -59,22 +59,8 @@ body {
   font-size: 24px;
   line-height: 45px;
   font-weight: 400;
-  background: linear-gradient(45deg, red, green);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 3px transparent;
-  background-size: 400%;
-  animation: span 2s linear infinite;
 }
 
-@keyframes span {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
 
 /* стиль для paragraph*/
 
